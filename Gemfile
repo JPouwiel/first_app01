@@ -6,10 +6,10 @@ ruby '2.0.0'
 gem 'rails', '4.0.5'
 
 # Use mysql as the database for Active Record
-#gem 'mysql2'
-group :development do
-  gem 'mysql2'
-end
+gem 'mysql2'
+#group :development do
+#  gem 'mysql2'
+#end
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
